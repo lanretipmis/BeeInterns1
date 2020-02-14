@@ -99,7 +99,7 @@
   background: var(--dark);
   color: var(--white);
 }
-/*----------------------------------------------------------------------*/
+/*--------------------ARTICLE ROW--------------------------------------------------*/
 
 .articles {
   padding: 8rem 11rem;
@@ -121,7 +121,7 @@
   margin: 0 2rem;
 }
 
-.article_img {
+.img {
   background: var(--grey);
   height: 24rem;
   max-width: 38rem;
@@ -155,7 +155,7 @@
   margin-top: 4rem;
 }
 
-/* =--------------------------------------------------------------------------*/
+/*----------FORM----------------------------------------------------------------*/
 .form {
   background: var(--grey);
   display: flex;
@@ -187,21 +187,27 @@
   padding: 1.5rem 20rem 1.5rem 2rem;
 }
 
-/*---------------------------------------------------------------------------*/
+/*-----------ARTICLES COL----------------------------------------------------------------*/
 
-.article_inline{
+.page_articles-col{
   display: flex;
-  align-items:center;
-  
+  flex-direction: column;
+  padding: 8rem 12.5rem;
+}
+
+.article-row{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
 }
 
 .img-big{
-  width: 58rem;
-  height: 38rem;
+  background: var(--grey);
+  max-width: 58.8rem;
+  height: 38.6rem;
+  margin: 0;
 }
 
-
-/*-------------------------------------------------------------------*/
+/*----------------------FOOTER----------------------------------------------------------------------------*/
 .footer{
   height: 41rem;
   background:var(--grey);
