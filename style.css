@@ -113,9 +113,6 @@
   justify-content: center;
 }
 
-.articles_article {
-}
-
 .article {
   max-width: 38rem;
   margin: 0 2rem;
@@ -188,16 +185,35 @@
 }
 
 /*-----------ARTICLES COL----------------------------------------------------------------*/
-
-.page_articles-col{
+.page_cards{
+  padding: 8rem 12.5rem;
   display: flex;
   flex-direction: column;
-  padding: 8rem 12.5rem;
+  align-items:center;
+  justify-items: center;
 }
 
-.article-row{
+.cards_card{
   display: grid;
   grid-template-columns: repeat(2,1fr);
+  margin-bottom: 6rem;
+}
+
+.card_content{
+  max-width: 58rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 0 6rem 0 0;
+}
+
+.content-right{
+  text-align: right;
+}
+.content-left{
+  text-align: left;
+  align-items:flex-start
 }
 
 .img-big{
